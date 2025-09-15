@@ -1,4 +1,4 @@
-export const categories = [
+export const emojiCategories = [
 	{
 		id: 'faces',
 		name: 'Rostos & Pessoas',

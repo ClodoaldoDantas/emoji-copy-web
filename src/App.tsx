@@ -1,3 +1,13 @@
+import { Container } from './components/container'
+import { Header } from './components/header'
+import { StoreProvider } from './contexts/store-provider'
+
 export function App() {
-	return <h1>Emoji Copy</h1>
+	return (
+		<StoreProvider>
+			<Container>
+				<Header />
+			</Container>
+		</StoreProvider>
+	)
 }
