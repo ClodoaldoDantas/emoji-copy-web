@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
+import { Toaster } from 'sonner'
 import { HomePage } from './pages/home/page'
 
 export function App() {
@@ -7,6 +8,7 @@ export function App() {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 			</Routes>
+			<Toaster richColors position="top-right" />
 		</BrowserRouter>
 	)
 }
