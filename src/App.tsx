@@ -1,17 +1,12 @@
-import { Categories } from './components/categories'
-import { Container } from './components/container'
-import { Header } from './components/header'
-import Search from './components/search'
-import { StoreProvider } from './contexts/store-provider'
+import { BrowserRouter, Route, Routes } from 'react-router'
+import { HomePage } from './pages/home/page'
 
 export function App() {
 	return (
-		<StoreProvider>
-			<Container>
-				<Header />
-				<Search />
-				<Categories />
-			</Container>
-		</StoreProvider>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+			</Routes>
+		</BrowserRouter>
 	)
 }

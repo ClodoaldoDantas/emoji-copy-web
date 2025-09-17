@@ -1,4 +1,16 @@
-export const emojiCategories = [
+export type EmojiItem = {
+	emoji: string
+	name: string
+	keywords: string[]
+}
+
+export type EmojiCategory = {
+	id: string
+	name: string
+	emojis: EmojiItem[]
+}
+
+export const emojiCategories: EmojiCategory[] = [
 	{
 		id: 'faces',
 		name: 'Rostos & Pessoas',
