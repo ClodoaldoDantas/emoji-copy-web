@@ -8168,11 +8168,6 @@ export const emojiCategories: EmojiCategory[] = [
 				keywords: ['família', 'mulher', 'menina'],
 			},
 			{
-				emoji: '👩‍👩‍👧‍👦',
-				name: 'Família (mulher, menina, menino)',
-				keywords: ['família', 'mulher', 'menina', 'menino'],
-			},
-			{
 				emoji: '👩‍👩‍👦‍👦',
 				name: 'Família (mulher, mulher, menino, menino)',
 				keywords: ['família', 'mulher', 'menino'],
